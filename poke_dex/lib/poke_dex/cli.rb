@@ -14,9 +14,8 @@ class PokeDex::CLI
    elsif input == "quit"
    quit 
    else
-     puts "I did not understand that command"
-      puts " "
-      call
+     type_error
+     call
   end
 end
 
@@ -30,9 +29,29 @@ end
   4. Rolycoly
   5. Mareep 
   DOC
-  puts "Trainer, choose the Pokemon you'd like get more information on or press exit to quit the Pokedex."
+  puts "Trainer, choose the Pokemon you'd like get more information on or enter quit to exit the Pokedex."
+  input = gets.strip 
+  if input == "1" 
+    puts "Here is Bulbasaurs information:"
+    puts "Bulbasaurs information"
+    elsif input == "2" 
+    puts "Here is Pikachus information:"
+    puts "Pikachus information"
+    elsif input == "3" 
+    puts "Here is Shuckles information:"
+    puts "Shuckles information"
+    elsif input == "4" 
+    puts "Here is Rolycolys information:"
+    puts "Rolycolys information" 
+    elsif input == "5" 
+    puts "Here is Mareeps information"
+    puts "Mareeps information"
+    elsif input == "quit"
+    quit
+  else
+    type_error
   end
-
+end
 
 
 def quit 
@@ -40,5 +59,10 @@ def quit
   puts "Thanks for using the Pokedex!"
 end
 
+def type_error 
+  puts ""
+  puts "Pokedex did not understand that command"
+  
+end
 
 end
