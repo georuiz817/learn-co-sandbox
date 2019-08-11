@@ -1,3 +1,3 @@
-module FavCafes
+module FavPizza
   VERSION = "0.1.0"
 end

@@ -1,6 +1,6 @@
-require "fav_cafes/version"
+require "fav_pizza/version"
 
-module FavCafes
+module FavPizza
   class Error < StandardError; end
   # Your code goes here...
 end
