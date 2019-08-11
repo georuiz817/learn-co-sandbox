@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "favorite_resauraunts/version"
+require "fav_cafes/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "favorite_resauraunts"
-  spec.version       = FavoriteResauraunts::VERSION
+  spec.name          = "fav_cafes"
+  spec.version       = FavCafes::VERSION
   spec.authors       = ["'George Ruiz'"]
   spec.email         = ["'georuiz817@gmail.com'"]
 

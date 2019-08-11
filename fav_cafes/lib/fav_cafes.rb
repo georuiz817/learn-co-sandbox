@@ -1,6 +1,6 @@
-require "favorite_resauraunts/version"
+require "fav_cafes/version"
 
-module FavoriteResauraunts
+module FavCafes
   class Error < StandardError; end
   # Your code goes here...
 end
