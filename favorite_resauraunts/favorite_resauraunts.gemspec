@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "poke_dex/version"
+require "favorite_resauraunts/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "poke_dex"
-  spec.version       = PokeDex::VERSION
+  spec.name          = "favorite_resauraunts"
+  spec.version       = FavoriteResauraunts::VERSION
   spec.authors       = ["'George Ruiz'"]
   spec.email         = ["'georuiz817@gmail.com'"]
 
